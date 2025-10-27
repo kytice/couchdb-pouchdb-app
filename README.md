@@ -1,7 +1,5 @@
 # CouchDB PouchDB Electric Vehicles App
 
-Offline-first web application demonstrating three-way synchronisation between browser (PouchDB), local CouchDB server, and IBM Cloudant cloud database.
-
 ## About
 This application was developed as part of the Advanced Databases module to demonstrate CouchDB's replication protocol, offline-first architecture, and DBaaS integration.
 
