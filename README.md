@@ -1,6 +1,5 @@
 # CouchDB PouchDB Electric Vehicles App
 
-## About
 This application was developed as part of the Advanced Databases module to demonstrate CouchDB's replication protocol, offline-first architecture, and DBaaS integration.
 
 ## Prerequisites
