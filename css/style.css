@@ -1,0 +1,97 @@
+body {
+  font-family: "MS Sans Serif", Arial;
+  background: #008080;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  padding: 5px 10px;
+  margin: 0 0 20px 0;
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow: 4px 3px 0 #7a7a7a;
+}
+
+form {
+  background: #c0c0c0;
+  border: 2px outset #dfdfdf;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 4px;
+  margin: 5px 0;
+  border: 2px inset #dfdfdf;
+  background: white;
+  font-family: "MS Sans Serif", Arial;
+}
+
+button {
+  padding: 4px 12px;
+  margin: 5px 5px 0 0;
+  background: #c0c0c0;
+  border: 2px outset #dfdfdf;
+  font-family: "MS Sans Serif", Arial;
+  cursor: pointer;
+}
+
+button:active {
+  border-style: inset;
+}
+
+h2 {
+  color: white;
+  padding: 5px 10px;
+  margin: 20px 0 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  color: aliceblue;
+  font-size: 12px;
+}
+
+footer a {
+  font-size: 14px;
+  font-weight: bold;
+  color: azure;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border: 2px outset #dfdfdf;
+}
+
+thead {
+  background: #80005a;
+  color: white;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #c0c0c0;
+}
+
+tbody tr:hover {
+  background: #fac705;
+  color: white;
+}
+
+td button {
+  margin: 0 2px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EV Database</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/pouchdb@8.0.1/dist/pouchdb.min.js"></script>
+  </head>
+  <body>
+    <h1>Electric Vehicles</h1>
+
+    <form id="form">
+      <input type="hidden" id="id" />
+      <input type="hidden" id="rev" />
+      <input
+        type="text"
+        id="manufacturer"
+        placeholder="Manufacturer"
+        required
+      />
+      <input type="text" id="model" placeholder="Model" required />
+      <input type="number" id="year" placeholder="Year" required />
+      <input
+        type="number"
+        id="price"
+        placeholder="Price"
+        step="0.01"
+        required
+      />
+      <button type="submit">Save</button>
+      <button type="button" onclick="cancel()">Cancel</button>
+    </form>
+
+    <h2>Latest 20 Vehicles</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Manufacturer</th>
+          <th>Model</th>
+          <th>Year</th>
+          <th>Price</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="list"></tbody>
+    </table>
+    <footer>
+      CouchDB Project by
+      <a href="https://github.com/kytice" target="_blank">kytice</a> © 2025
+    </footer>
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
